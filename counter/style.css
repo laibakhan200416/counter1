@@ -1,0 +1,39 @@
+body{
+   background-color: #c7c4c4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.container{
+   background-color: rgb(128, 215, 226);
+    text-align: center;
+    width: 300px;
+    margin: 80px auto;
+    border: 3px solid rgb(23, 0, 128);
+    box-shadow:0px 0px 2px yellowgreen;
+}
+
+.btn{
+    background-color: rgb(16, 8, 92);
+    color:antiquewhite;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+h1{
+    color: #130852;
+}
+@media only screen and (max-width: 480px) {
+    .container {
+      width: 95%;
+      margin: 10px auto;
+    }
+    .btn {
+      padding: 5px;
+      border-radius: 30px;
+    }
+    .btn:hover {
+      padding: 10px;
+      border-radius: 50px;
+    }
+  }
